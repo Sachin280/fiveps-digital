@@ -28,10 +28,14 @@ export function AboutPage() {
   ];
 
   const team = [
-    { name: 'John Smith', role: 'CEO & Founder', initials: 'JS' },
-    { name: 'Sarah Williams', role: 'Creative Director', initials: 'SW' },
-    { name: 'Mike Johnson', role: 'Head of Strategy', initials: 'MJ' },
-    { name: 'Emma Davis', role: 'Lead Developer', initials: 'ED' },
+    { name: 'Pankaj Yadav', role: 'CEO & Founder', initials: 'PY' },
+    { name: 'Sudarshan Chauhan', role: 'Head of Strategy', initials: 'SC' },
+    { name: 'Nishika Mehndiratta', role: 'Project Manager', initials: 'NM' },
+    { name: 'Vansika Yadav', role: 'Graphic Designer', initials: 'VY' },
+    { name: 'Yogesh Ridhal', role: 'ADs Manager', initials: 'YR' },
+    { name: 'Sachin Yadav', role: 'Senior Developer', initials: 'SY' },
+    { name: 'Jagan Yadav', role: 'SEO Specialist', initials: 'JY' },
+    { name: 'Anurag Bishnoi', role: 'Creative Video Editor', initials: 'AB' },
   ];
 
   return (
@@ -81,27 +85,24 @@ export function AboutPage() {
                 Our Story
               </h2>
               <div className="space-y-4 text-white/70">
-                <p>
-                  Founded in 2015, DigitalPro started with a simple mission: to help businesses succeed in the digital age through innovative marketing strategies and creative excellence.
-                </p>
-                <p>
-                  What began as a small team of three has grown into a powerhouse of 50+ digital experts serving clients across the globe. Our success is built on a foundation of trust, transparency, and tangible results.
-                </p>
-                <p>
-                  Today, we're proud to have helped over 500 businesses transform their digital presence, generating millions in revenue and building lasting partnerships along the way.
-                </p>
+                 <p>Founded in 2022–23, FivePS Digital was established with a clear vision: to help businesses grow in the digital world through innovative strategies, creative marketing, and powerful online solutions.
+</p><p>
+What started as a focused and passionate team has quickly grown into a dedicated group of digital professionals committed to delivering high-quality services to businesses across different industries.
+</p><p>
+Today, we aim to help companies strengthen their online presence, generate quality leads, and build strong digital brands through modern websites, strategic marketing, and result-driven solutions.
+                  </p>
               </div>
 
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="text-center">
                   <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2">
-                    500+
+                    200+
                   </div>
                   <div className="text-white/60">Happy Clients</div>
                 </div>
                 <div className="text-center">
                   <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2">
-                    50+
+                    30+
                   </div>
                   <div className="text-white/60">Team Members</div>
                 </div>

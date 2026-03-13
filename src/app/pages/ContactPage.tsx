@@ -68,7 +68,7 @@ export function ContactPage() {
                   <Mail className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-2">Email Us</h3>
-                <p className="text-white/60">hello@digitalpro.com</p>
+                <p className="text-white/60"><a href='mailto:info@fiveps.in'>info@fiveps.in</a></p>
               </GlassCard>
             </motion.div>
 
@@ -82,7 +82,8 @@ export function ContactPage() {
                   <Phone className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-2">Call Us</h3>
-                <p className="text-white/60">+1 (555) 123-4567</p>
+                
+                <p className="text-white/60"><a href='tel:+91 9350612825'>+91 9350612825</a></p>
               </GlassCard>
             </motion.div>
 
@@ -96,7 +97,7 @@ export function ContactPage() {
                   <MapPin className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-2">Visit Us</h3>
-                <p className="text-white/60">123 Digital Street, Tech City, TC 12345</p>
+                <p className="text-white/60">SCO A-03, 1st Floor, Above Suncity Projects Office, Sector 6, Suncity, Rewari</p>
               </GlassCard>
             </motion.div>
           </div>
@@ -124,7 +125,7 @@ export function ContactPage() {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-white placeholder-white/40 focus:outline-none focus:border-blue-500 transition-colors"
-                      placeholder="John Smith"
+                      placeholder="mukesh kumar"
                     />
                   </div>
                   <div>
@@ -139,7 +140,7 @@ export function ContactPage() {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-white placeholder-white/40 focus:outline-none focus:border-blue-500 transition-colors"
-                      placeholder="john@example.com"
+                      placeholder="abc@example.com"
                     />
                   </div>
                 </div>

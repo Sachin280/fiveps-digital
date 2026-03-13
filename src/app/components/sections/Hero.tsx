@@ -31,7 +31,7 @@ export function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-white/60 max-w-3xl mx-auto mb-12">
-            We help brands grow with data-driven strategies, creative campaigns, and cutting-edge digital solutions.
+            From high-performance websites to data-driven marketing strategies, we help manufacturing companies generate leads, build credibility, and grow faster in the digital world.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -44,10 +44,9 @@ export function Hero() {
             </Link>
             <button className="px-8 py-4 rounded-full border border-white/20 text-white hover:bg-white/5 transition-all flex items-center gap-2">
               <Play className="w-5 h-5" />
-              Watch Demo
+             <a href='#portfolio'> Watch Demo</a>
             </button>
           </div>
-
           {/* Stats */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -56,10 +55,10 @@ export function Hero() {
             className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-24"
           >
             {[
-              { value: '500+', label: 'Happy Clients' },
+              { value: '200+', label: 'Happy Clients' },
               { value: '95%', label: 'Success Rate' },
-              { value: '1000+', label: 'Projects Done' },
-              { value: '50+', label: 'Team Members' },
+              { value: '300+', label: 'Projects Done' },
+              { value: '20+', label: 'Team Members' },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-2">

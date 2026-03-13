@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, Youtube } from 'lucide-react';
 
 export function Footer() {
   const services = [
@@ -26,11 +26,12 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-                <span className="text-white font-bold text-xl">D</span>
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+                {/* <span className="text-white font-bold text-xl">D</span> */}
+                 <img src="src/assests/LOGO WITHOUT TEXT-01.png" alt="FIVEPS Digital LOGO" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                DigitalPro
+                FivePS Digital
               </span>
             </Link>
             <p className="text-white/60 mb-6">
@@ -38,28 +39,34 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/Fivepsdigital.in"
                 className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-white/60 hover:text-white transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://x.com/Fiveps_digital"
                 className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-white/60 hover:text-white transition-colors"
               >
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/fiveps.digital?igsh=ZW4xNzZnYnZoeTIx"
                 className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-white/60 hover:text-white transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/fiveps-digital/"
                 className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-white/60 hover:text-white transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://youtube.com/@fivepsdigital?si=ygik8x5ejnTNOSTf"
+                className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-white/60 hover:text-white transition-colors"
+              >
+                <Youtube className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -72,7 +79,7 @@ export function Footer() {
                 <li key={service}>
                   <Link
                     to={`/services/${service.toLowerCase().replace(/\s+/g, '-')}`}
-                    className="text-white/60 hover:text-white transition-colors"
+                    className="hover:underline hover:text-white transition-colors"
                   >
                     {service}
                   </Link>
@@ -89,7 +96,7 @@ export function Footer() {
                 <li key={link.name}>
                   <Link
                     to={link.path}
-                    className="text-white/60 hover:text-white transition-colors"
+                    className=" hover:text-white hover:underline transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -100,26 +107,40 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Contact Us</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3 text-white/60">
-                <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span>123 Digital Street, Tech City, TC 12345</span>
-              </li>
-              <li className="flex items-center gap-3 text-white/60">
-                <Phone className="w-5 h-5 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
-              </li>
-              <li className="flex items-center gap-3 text-white/60">
-                <Mail className="w-5 h-5 flex-shrink-0" />
-                <span>hello@digitalpro.com</span>
-              </li>
-            </ul>
+            <h3 className="text-white font-semibold mb-4 ">Contact Us</h3>
+         <ul className="space-y-3">
+  <li className="flex items-start gap-3 ">
+    <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
+    <span>
+      SCO A-03, 1st Floor, Above Suncity Projects Office, Sector 6, Suncity, Rewari - 123401
+    </span>
+  </li>
+
+  <li className="flex items-center gap-3 text-white">
+    <Phone className="w-5 h-5 flex-shrink-0" />
+    <a
+      href="tel:+919350612825"
+      className="hover:text-white hover:underline transition"
+    >
+      +91 9350612825
+    </a>
+  </li>
+
+  <li className="flex items-center gap-3 text-white">
+    <Mail className="w-5 h-5 flex-shrink-0" />
+    <a
+      href="mailto:info@fiveps.in"
+      className="hover:text-white hover:underline transition"
+    >
+      info@fiveps.in
+    </a>
+  </li>
+</ul>
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/40">
-          <p>&copy; 2026 DigitalPro. All rights reserved.</p>
+        <div className="border-t border-white/10 mt-12 pt-8 text-center text-white">
+          <p>&copy; 2026 FivePS Digital. All rights reserved.</p>
         </div>
       </div>
     </footer>

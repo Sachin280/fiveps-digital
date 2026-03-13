@@ -82,7 +82,7 @@ export function PricingSection() {
               className="relative"
             >
               {plan.popular && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm font-semibold">
+                <div className="absolute -top-6 left-1/2  -translate-x-1/2 px-2 py-1 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm font-semibold">
                   Most Popular
                 </div>
               )}

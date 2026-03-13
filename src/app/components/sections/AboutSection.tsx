@@ -14,7 +14,7 @@ export function AboutSection() {
     {
       icon: Users,
       title: 'Expert Team',
-      description: '50+ certified professionals',
+      description: '30+ certified professionals',
       gradient: 'from-blue-500 to-purple-500',
     },
     {
@@ -41,7 +41,7 @@ export function AboutSection() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              About <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">DigitalPro</span>
+              About <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">FivePS Digital</span>
             </h2>
             <p className="text-xl text-white/60 mb-8">
               We're a team of passionate digital marketers, designers, and developers dedicated to helping businesses thrive in the digital age.

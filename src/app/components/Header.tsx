@@ -56,11 +56,13 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-              <span className="text-white font-bold text-xl">D</span>
+            <div className="w-10 h-10 rounded-lg  flex items-center justify-center">
+              
+              <img src="src/assests/LOGO WITHOUT TEXT-01.png" alt="FIVEPS Digital LOGO" />{/* <span className="text-white font-bold text-xl">D</span> */}
             </div>
+            
             <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              DigitalPro
+              FivePS Digital
             </span>
           </Link>
 
@@ -117,7 +119,7 @@ export function Header() {
 
           {/* CTA Button */}
           <Link
-            to="/contact"
+            to="https://wa.me/+919350612825?text=Hi How Can I Help You"
             className="hidden lg:block px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:shadow-lg hover:shadow-purple-500/50 transition-all"
           >
             Get Started

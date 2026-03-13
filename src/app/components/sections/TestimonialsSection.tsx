@@ -4,22 +4,22 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Sarah Johnson',
-    role: 'CEO, TechStart Inc.',
+    name: 'Manpreet Kaur',
+    role: 'CEO, Hariprimerealty',
     content: 'DigitalPro transformed our online presence completely. Their strategic approach and creative campaigns helped us achieve 300% growth in just 6 months.',
     rating: 5,
     avatar: 'SJ',
   },
   {
-    name: 'Michael Chen',
-    role: 'Marketing Director, EcoShop',
+    name: 'Nikhil Batra',
+    role: 'Owner,RP Racing',
     content: 'Working with DigitalPro has been a game-changer. Their team is professional, responsive, and delivers exceptional results every time.',
     rating: 5,
     avatar: 'MC',
   },
   {
-    name: 'Emily Rodriguez',
-    role: 'Founder, StyleHub',
+    name: 'Rajeev Kejriwal',
+    role: 'Author',
     content: 'The best digital marketing agency we\'ve worked with. They truly understand our brand and consistently exceed expectations.',
     rating: 5,
     avatar: 'ER',

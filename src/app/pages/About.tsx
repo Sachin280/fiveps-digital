@@ -25,35 +25,55 @@ export default function About() {
       description: 'We strive for excellence in every project and campaign we deliver.',
     },
   ];
-
+abcdef
   const team = [
     {
-      name: 'Alex Kumar',
+      name: 'Pankaj Yadav',
       role: 'CEO & Founder',
       image: 'https://images.unsplash.com/photo-1753162658596-2ccba5e4246a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHRlYW0lMjBjb2xsYWJvcmF0aW9ufGVufDF8fHx8MTc3MjQ1OTMzMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     },
     {
-      name: 'Sarah Mitchell',
+      name: 'Sudarshan Chauhan',
       role: 'Head of Strategy',
       image: 'https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzcyNDMzNTk3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     },
     {
-      name: 'David Chen',
-      role: 'Creative Director',
+      name: 'Nishika Mehndiratta',
+      role: 'Project Manager',
       image: 'https://images.unsplash.com/photo-1758468772760-837fb2cde7c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW50JTIwY3JlYXRpb24lMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzcyNDg1NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     },
     {
-      name: 'Emily Rodriguez',
-      role: 'Head of Development',
+      name: 'Vansika Yadav',
+      role: 'Graphic Designer',
+      image: 'https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZ3xlbnwxfHx8fDE3NzI0MjYxODV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    },
+    {
+      name: 'Yogesh Ridhal',
+      role: 'AS Manager',
+      image: 'https://images.unsplash.com/photo-1753162658596-2ccba5e4246a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHRlYW0lMjBjb2xsYWJvcmF0aW9ufGVufDF8fHx8MTc3MjQ1OTMzMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    },
+    {
+      name: 'Sachin Yadav',
+      role: 'Senior Developer',
+      image: 'https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzcyNDMzNTk3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    },
+    {
+      name: 'Jagan Yadav',
+      role: 'SEO Specialist',
+      image: 'https://images.unsplash.com/photo-1758468772760-837fb2cde7c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW50JTIwY3JlYXRpb24lMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzcyNDg1NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    },
+    {
+      name: 'Anurag Bishnoi',
+      role: 'Creative Video Editor',
       image: 'https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGluZ3xlbnwxfHx8fDE3NzI0MjYxODV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     },
   ];
 
   const milestones = [
-    { year: '2018', title: 'Founded', description: 'Started with a vision to transform digital marketing' },
-    { year: '2020', title: '50+ Clients', description: 'Expanded our client base across industries' },
-    { year: '2022', title: 'Award Winning', description: 'Recognized as Best Digital Agency' },
-    { year: '2026', title: '250+ Projects', description: 'Successfully delivered projects worldwide' },
+    { year: '2022', title: 'Founded', description: 'Started with a vision to transform digital marketing' },
+    { year: '2024', title: '30+ Clients', description: 'Expanded our client base across industries' },
+    { year: '2025', title: 'Award Winning', description: 'Recognized as Best Digital Agency' },
+    { year: '2026', title: '300+ Projects', description: 'Successfully delivered projects worldwide' },
   ];
 
   return (
@@ -99,15 +119,12 @@ export default function About() {
             >
               <h2 className="text-5xl font-bold text-white mb-6">Our Story</h2>
               <div className="space-y-4 text-white/70 text-lg leading-relaxed">
-                <p>
-                  Founded in 2018, GrowthGride Digital started with a simple mission: to help businesses thrive in the digital age through innovative marketing strategies and cutting-edge technology.
-                </p>
-                <p>
-                  What began as a small team of passionate marketers has grown into a full-service digital agency with over 50 talented professionals. We've worked with startups, SMEs, and Fortune 500 companies, delivering measurable results and exceeding expectations.
-                </p>
-                <p>
-                  Today, we're proud to be recognized as one of the leading digital marketing agencies, having completed over 250 projects and maintained a 98% client satisfaction rate.
-                </p>
+                <p>Founded in 2022–23, FivePS Digital was established with a clear vision: to help businesses grow in the digital world through innovative strategies, creative marketing, and powerful online solutions.
+</p><p>
+What started as a focused and passionate team has quickly grown into a dedicated group of digital professionals committed to delivering high-quality services to businesses across different industries.
+</p><p>
+Today, we aim to help companies strengthen their online presence, generate quality leads, and build strong digital brands through modern websites, strategic marketing, and result-driven solutions.
+                  </p>
               </div>
             </motion.div>
 
@@ -259,10 +276,10 @@ export default function About() {
         <div className="max-w-[1440px] mx-auto px-8">
           <div className="grid grid-cols-4 gap-8 text-center">
             {[
-              { number: '250+', label: 'Projects Completed' },
-              { number: '120+', label: 'Happy Clients' },
-              { number: '98%', label: 'Client Satisfaction' },
-              { number: '50+', label: 'Team Members' },
+              { number: '300+', label: 'Projects Completed' },
+              { number: '200+', label: 'Happy Clients' },
+              { number: '95%', label: 'Client Satisfaction' },
+              { number: '30+', label: 'Team Members' },
             ].map((stat, index) => (
               <motion.div
                 key={index}
